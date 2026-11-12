@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="SearchOS: one Claude Code skill for SEO, AEO, GEO and AI visibility">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B16"/>
+      <stop offset="1" stop-color="#101A33"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#9CC3FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.42" r="0.45">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1C2742" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1280" height="420" rx="24" fill="url(#glow)"/>
+
+  <!-- magnifier with orbiting nodes -->
+  <g transform="translate(1030 175)">
+    <circle r="118" fill="none" stroke="#25345A" stroke-width="1.5" stroke-dasharray="4 8"/>
+    <circle r="78" fill="none" stroke="#2F4A80" stroke-width="1.5"/>
+    <circle r="54" fill="#0E1730" stroke="#60A5FA" stroke-width="10"/>
+    <line x1="40" y1="40" x2="92" y2="92" stroke="#60A5FA" stroke-width="16" stroke-linecap="round"/>
+    <path d="M-22 6 L-6 -10 L6 2 L24 -18" fill="none" stroke="#34D399" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-110" cy="-44" r="7" fill="#F59E0B"/>
+    <circle cx="100" cy="-62" r="6" fill="#A78BFA"/>
+    <circle cx="-60" cy="100" r="6" fill="#34D399"/>
+    <circle cx="118" cy="20" r="5" fill="#F472B6"/>
+    <circle cx="-118" cy="40" r="5" fill="#60A5FA"/>
+  </g>
+
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="92" font-size="20" font-weight="600" fill="#60A5FA" letter-spacing="3">CLAUDE CODE SKILL</text>
+    <text x="68" y="182" font-size="96" font-weight="800" fill="url(#title)">SearchOS</text>
+    <text x="72" y="232" font-size="28" fill="#C9D4EA">One skill to get found in Google, Bing and AI answers.</text>
+    <text x="72" y="270" font-size="20" fill="#7F8DAA">SEO  ·  AEO  ·  GEO  ·  AI visibility  ·  from keyword research to measurement</text>
+
+    <!-- engine chips -->
+    <g font-size="16" font-weight="600" fill="#DCE6FA">
+      <rect x="72" y="314" width="88" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="116" y="337" text-anchor="middle">Google</text>
+      <rect x="170" y="314" width="70" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="205" y="337" text-anchor="middle">Bing</text>
+      <rect x="250" y="314" width="98" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="299" y="337" text-anchor="middle">ChatGPT</text>
+      <rect x="358" y="314" width="80" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="398" y="337" text-anchor="middle">Claude</text>
+      <rect x="448" y="314" width="118" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="507" y="337" text-anchor="middle">Perplexity</text>
+      <rect x="576" y="314" width="88" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="620" y="337" text-anchor="middle">Gemini</text>
+      <rect x="674" y="314" width="92" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="720" y="337" text-anchor="middle">Copilot</text>
+      <rect x="776" y="314" width="138" height="36" rx="18" fill="#152140" stroke="#2A3B66"/>
+      <text x="845" y="337" text-anchor="middle">AI Overviews</text>
+    </g>
+  </g>
+</svg>

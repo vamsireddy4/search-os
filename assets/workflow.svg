@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="470" viewBox="0 0 1280 470" role="img" aria-label="SearchOS workflow: nine phases from baseline to measure and refresh, in a loop">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#5B7BB8"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="470" rx="24" fill="#0B1120"/>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="640" y="54" text-anchor="middle" font-size="26" font-weight="700" fill="#F1F5FF">The SearchOS workflow</text>
+    <text x="640" y="84" text-anchor="middle" font-size="16" fill="#8391AE">The order the work is really done. Each phase feeds the next, then the loop repeats.</text>
+
+    <!-- row 1: phases 0-4 -->
+    <g font-size="15">
+      <g transform="translate(60 120)">
+        <rect width="200" height="112" rx="16" fill="#131C33" stroke="#64748B"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#94A3B8">PHASE 0</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">Baseline</text>
+        <text x="20" y="88" fill="#9AA8C4">Goals + today's numbers</text>
+      </g>
+      <g transform="translate(296 120)">
+        <rect width="200" height="112" rx="16" fill="#131C33" stroke="#F87171"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#F87171">PHASE 1</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">Crawl + index</text>
+        <text x="20" y="88" fill="#9AA8C4">Remove every blocker</text>
+      </g>
+      <g transform="translate(532 120)">
+        <rect width="200" height="112" rx="16" fill="#131C33" stroke="#FBBF24"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#FBBF24">PHASE 2</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">Research</text>
+        <text x="20" y="88" fill="#9AA8C4">Keywords, intent, AI filter</text>
+      </g>
+      <g transform="translate(768 120)">
+        <rect width="200" height="112" rx="16" fill="#131C33" stroke="#FBBF24"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#FBBF24">PHASE 3</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">Plan</text>
+        <text x="20" y="88" fill="#9AA8C4">One page per intent</text>
+      </g>
+      <g transform="translate(1004 120)">
+        <rect width="216" height="112" rx="16" fill="#131C33" stroke="#34D399"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#34D399">PHASE 4</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">Create</text>
+        <text x="20" y="88" fill="#9AA8C4">Information gain, answer-first</text>
+      </g>
+
+      <!-- row 2: phases 5-8 (right to left) -->
+      <g transform="translate(1004 300)">
+        <rect width="216" height="112" rx="16" fill="#131C33" stroke="#34D399"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#34D399">PHASE 5</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">On-page</text>
+        <text x="20" y="88" fill="#9AA8C4">Titles, schema, entity, links</text>
+      </g>
+      <g transform="translate(728 300)">
+        <rect width="240" height="112" rx="16" fill="#131C33" stroke="#60A5FA"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#60A5FA">PHASE 6</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">Authority</text>
+        <text x="20" y="88" fill="#9AA8C4">Links, PR, reviews, GBP</text>
+      </g>
+      <g transform="translate(452 300)">
+        <rect width="240" height="112" rx="16" fill="#131C33" stroke="#A78BFA"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#A78BFA">PHASE 7</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">AI visibility</text>
+        <text x="20" y="88" fill="#9AA8C4">Mentions, prompt tracking</text>
+      </g>
+      <g transform="translate(176 300)">
+        <rect width="240" height="112" rx="16" fill="#131C33" stroke="#F472B6"/>
+        <text x="20" y="34" font-size="13" font-weight="700" fill="#F472B6">PHASE 8</text>
+        <text x="20" y="62" font-size="20" font-weight="700" fill="#F1F5FF">Measure + refresh</text>
+        <text x="20" y="88" fill="#9AA8C4">CTR, decay, citations</text>
+      </g>
+    </g>
+
+    <!-- arrows -->
+    <g stroke="#5B7BB8" stroke-width="2.5" fill="none" marker-end="url(#arr)">
+      <line x1="262" y1="176" x2="292" y2="176"/>
+      <line x1="498" y1="176" x2="528" y2="176"/>
+      <line x1="734" y1="176" x2="764" y2="176"/>
+      <line x1="970" y1="176" x2="1000" y2="176"/>
+      <line x1="1112" y1="234" x2="1112" y2="296"/>
+      <line x1="1002" y1="356" x2="972" y2="356"/>
+      <line x1="726" y1="356" x2="696" y2="356"/>
+      <line x1="450" y1="356" x2="420" y2="356"/>
+      <path d="M174 356 H120 Q100 356 100 336 V250 Q100 238 112 236" stroke-dasharray="6 6"/>
+    </g>
+    <text x="34" y="300" font-size="13" font-weight="600" fill="#5B7BB8" transform="rotate(-90 34 300)">repeat the loop</text>
+  </g>
+</svg>
