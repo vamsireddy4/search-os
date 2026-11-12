@@ -81,7 +81,7 @@ WHAT THIS DID NOT CHECK: gaps, and the export or tool that would answer each
 ### The workflow
 
 <div align="center">
-<img src="assets/workflow.svg" alt="Nine phases: baseline, crawl and index, research, plan, create, on-page, authority, AI visibility, measure and refresh" width="100%">
+<img src="assets/workflow.png" alt="Nine phases: baseline, crawl and index, research, plan, create, on-page, authority, AI visibility, measure and refresh" width="100%">
 </div>
 
 Audits are entry points into this loop: they find which phase is broken, then SearchOS fixes it in order.
@@ -118,15 +118,15 @@ Audits are entry points into this loop: they find which phase is broken, then Se
 
 | Area | File | Covers |
 |---|---|---|
-| 🔑 Strategy | [`foundations-keywords.md`](references/foundations-keywords.md) | How search + AI answers work, dated stats, keyword research, intent, clustering, topical maps, master 30-day plan |
-| ✍️ Content | [`content.md`](references/content.md) | Briefs, drafts, information gain, listicles, comparison pages, calculators, customer-fit scoring, pre-publish checks |
-| ⚙️ Technical | [`technical.md`](references/technical.md) | Technical audits, AI bot policy + robots.txt template, server logs, Core Web Vitals, migrations, repo HTML audits |
-| 🏷️ On-page | [`onpage-schema-entity.md`](references/onpage-schema-entity.md) | Titles and meta, schema (JSON-LD), entity / Knowledge Panel, author authority, internal linking |
-| 🔗 Authority | [`offsite-authority.md`](references/offsite-authority.md) | Link building, digital PR, outreach, Reddit / YouTube / LinkedIn, reviews and Google review policy |
-| 🤖 AI visibility | [`ai-visibility.md`](references/ai-visibility.md) | AEO/GEO program, AI Visibility Checklist, prompt library, citation share, share-of-voice experiments |
-| 📈 Measure | [`measure-refresh.md`](references/measure-refresh.md) | Search Console, striking distance, rank tracking, content decay, cannibalization, core updates, board slide |
-| 🩺 Audits | [`audits.md`](references/audits.md) | Site and page audits, quality-rater grading, helpful content, B2B / SaaS / ecommerce / local / restaurant |
-| 📍 Local + global | [`local-international.md`](references/local-international.md) | Google Business Profile, local map grids, citations by country, hreflang and multilingual sites |
+| Strategy | [`foundations-keywords.md`](references/foundations-keywords.md) | How search + AI answers work, dated stats, keyword research, intent, clustering, topical maps, master 30-day plan |
+| Content | [`content.md`](references/content.md) | Briefs, drafts, information gain, listicles, comparison pages, calculators, customer-fit scoring, pre-publish checks |
+| Technical | [`technical.md`](references/technical.md) | Technical audits, AI bot policy + robots.txt template, server logs, Core Web Vitals, migrations, repo HTML audits |
+| On-page | [`onpage-schema-entity.md`](references/onpage-schema-entity.md) | Titles and meta, schema (JSON-LD), entity / Knowledge Panel, author authority, internal linking |
+| Authority | [`offsite-authority.md`](references/offsite-authority.md) | Link building, digital PR, outreach, Reddit / YouTube / LinkedIn, reviews and Google review policy |
+| AI visibility | [`ai-visibility.md`](references/ai-visibility.md) | AEO/GEO program, AI Visibility Checklist, prompt library, citation share, share-of-voice experiments |
+| Measure | [`measure-refresh.md`](references/measure-refresh.md) | Search Console, striking distance, rank tracking, content decay, cannibalization, core updates, board slide |
+| Audits | [`audits.md`](references/audits.md) | Site and page audits, quality-rater grading, helpful content, B2B / SaaS / ecommerce / local / restaurant |
+| Local + global | [`local-international.md`](references/local-international.md) | Google Business Profile, local map grids, citations by country, hreflang and multilingual sites |
 
 ### 13 helper scripts
 
