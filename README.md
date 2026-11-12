@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="SearchOS: one Claude Code skill for SEO, AEO, GEO and AI visibility" width="100%">
+<img src="assets/banner.png" alt="SearchOS: one Claude Code skill for SEO, AEO, GEO and AI visibility" width="100%">
 
 <br>
 
@@ -12,13 +12,13 @@
 
 **Stop juggling 80 SEO prompts. Install one skill that knows the whole job.**
 
-[Install](#-install-in-10-seconds) · [What it does](#-what-it-does) · [How it works](#-how-it-works) · [Examples](#-try-these) · [What's inside](#-whats-inside) · [claude-watch](#-built-with-claude-watch)
+[Install](#install-in-10-seconds) · [What it does](#what-it-does) · [How it works](#how-it-works) · [Examples](#try-these) · [What's inside](#whats-inside) · [claude-watch](#built-with-claude-watch)
 
 </div>
 
 ---
 
-## ✨ What it does
+## What it does
 
 SearchOS turns Claude Code into a senior search strategist. It covers **SEO, AEO (answer-engine optimization), GEO
 (generative-engine optimization) and AI visibility** in one skill: keyword research, content, technical audits,
@@ -45,7 +45,7 @@ resolving their conflicts, and rewriting everything as one workflow with one set
 
 ---
 
-## ⚡ Install in 10 seconds
+## Install in 10 seconds
 
 ```bash
 git clone https://github.com/vamsireddy4/search-os.git ~/.claude/skills/searchos
@@ -57,10 +57,10 @@ Start a new [Claude Code](https://docs.claude.com/en/docs/claude-code) session. 
 
 ---
 
-## 🧠 How it works
+## How it works
 
 <div align="center">
-<img src="assets/how-it-works.svg" alt="Your request goes to the SKILL.md router, which loads one of nine reference files and returns a report" width="100%">
+<img src="assets/how-it-works.png" alt="Your request goes to the SKILL.md router, which loads one of nine reference files and returns a report" width="100%">
 </div>
 
 1. **You ask** with `/searchos ...` or just ask a search question (it also loads when you paste Search Console, GA4,
@@ -88,7 +88,7 @@ Audits are entry points into this loop: they find which phase is broken, then Se
 
 ---
 
-## 💬 Try these
+## Try these
 
 ```text
 /searchos plan SEO for my new bakery website in Pune
@@ -114,7 +114,7 @@ Audits are entry points into this loop: they find which phase is broken, then Se
 
 ---
 
-## 📦 What's inside
+## What's inside
 
 | Area | File | Covers |
 |---|---|---|
@@ -128,7 +128,7 @@ Audits are entry points into this loop: they find which phase is broken, then Se
 | 🩺 Audits | [`audits.md`](references/audits.md) | Site and page audits, quality-rater grading, helpful content, B2B / SaaS / ecommerce / local / restaurant |
 | 📍 Local + global | [`local-international.md`](references/local-international.md) | Google Business Profile, local map grids, citations by country, hreflang and multilingual sites |
 
-### 🛠️ 13 helper scripts
+### 13 helper scripts
 
 Run with `python3 ~/.claude/skills/searchos/scripts/<name>.py`. Each has a `--selftest` (except `review_proof_sorter.py`).
 
@@ -150,7 +150,7 @@ Run with `python3 ~/.claude/skills/searchos/scripts/<name>.py`. Each has a `--se
 
 ---
 
-## 🛡️ Rules it always follows
+## Rules it always follows
 
 - **Read or stop.** Never grades a page, site, search result or AI answer it didn't actually read.
 - **Never invents data.** No made-up volumes, rankings, reviews, citations or AI answers. Gaps are marked `[ADD: ...]`.
@@ -166,7 +166,7 @@ Run with `python3 ~/.claude/skills/searchos/scripts/<name>.py`. Each has a `--se
 
 ---
 
-## 🎬 Built with claude-watch
+## Built with claude-watch
 
 <div align="center">
 
@@ -187,7 +187,7 @@ git clone https://github.com/vamsireddy4/claude-watch
 
 ---
 
-## ⚠️ Limits
+## Limits
 
 - It can't query AI assistants itself: AI visibility is measured from answers you paste or from a tracking tool.
 - Third-party statistics are dated and directional; re-check before quoting them.
@@ -196,7 +196,7 @@ git clone https://github.com/vamsireddy4/claude-watch
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Found an outdated rule, a better method, or a bug in a script? Issues and pull requests are welcome.
 Please keep the house rules: cite sources for numbers, no invented data, no vendor promotion.
@@ -205,12 +205,12 @@ If SearchOS helps you, **⭐ star the repo** so more people can find it.
 
 ---
 
-## 🙏 Credits
+## Credits
 
 SearchOS distills methods from public SEO and AI-search teaching (including Google Search Central documentation and
 the Search Quality Rater Guidelines, plus community courses and skills on SEO, AEO and GEO), rewritten in its own
 words. Not affiliated with Google, Microsoft, OpenAI, Anthropic, Ahrefs or any other company mentioned.
 
-## 📄 License
+## License
 
 [MIT](LICENSE): free to use, modify and share, including commercially.
