@@ -177,3 +177,7 @@ rewritten in its own words. It is not affiliated with Google, Microsoft, OpenAI,
 company mentioned.
 
 Contributions and issues are welcome.
+
+## License
+
+[MIT](LICENSE): free to use, modify and share, including commercially.
